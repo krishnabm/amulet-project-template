@@ -10,6 +10,6 @@ WindowModule.win = am.window {
   msaa_samples = 2, -- low antialiasing
   highdpi = false
 }
-WindowModule.win.scene = am.group();
+WindowModule.win.scene = am.group()
 
 return WindowModule
